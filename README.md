@@ -1,9 +1,31 @@
-Spec this project:
-- API : axios/fetch
-- style : tailwindcss
+# Project Spec
 
-Entry point: /src/main.jsx
+## Tech Stack
 
-API client: /src/libs/http_client
+-   **API Client**: [Axios](https://axios-http.com/)
+-   **Styling**: [TailwindCSS](https://tailwindcss.com/)
 
-Functionalities: /src/features
+## Project Structure
+
+```
+/src
+ ├─ main.jsx          # Entry point
+ ├─ libs
+ │   └─ http_client   # API client setup (axios instance)
+ └─ features          # App features/modules
+```
+
+## Development
+
+```bash
+# install deps
+npm install
+
+# run dev server
+npm run dev
+
+# build for production
+npm run build
+```
+
+jika ada comment // TO-DO, itu maksudnya bisa diadjust flownya sesuai sama masing-masing sistem
