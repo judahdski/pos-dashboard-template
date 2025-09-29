@@ -1,12 +1,14 @@
 const LOGGER = (msg, type = "info") => {
     // if (process.env.NODE_ENV === "production") return;
 
+    const currentTime = new Date.now();
+
     if (type == "info") {
-        console.log(msg);
+        console.log(`[${currentTime} Information]\n${msg}`);
     } else if (type == "success") {
-        console.log(`%c${msg}`, "color: green;");
+        console.log(`%c[${currentTime} Success]\n${msg}`, "color: green;");
     } else if (type == "error") {
-        console.error(`%c${msg}`, "color: red;");
+        console.error(`%c[${currentTime} Error]\n${msg}`, "color: red;");
     }
 };
 

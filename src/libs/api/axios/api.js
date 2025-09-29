@@ -22,6 +22,7 @@ export default api;
 
 // TODO : API error response status handling [DONE]
 // TODO : API for FormData handling, convert plain object to FormData [DONE]
-// TODO: API client form multipart handling [DONE]
-// TODO: testing with dummy API (find on google)
+// TODO : API client form multipart handling [DONE]
+// TODO : testing with dummy API (find on google)
 // TODO : API for array handling
+// TODO : set timeout berdasarkan method request
