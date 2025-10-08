@@ -26,3 +26,4 @@ export default api;
 // TODO : testing with dummy API (find on google)
 // TODO : API for array handling
 // TODO : set timeout berdasarkan method request
+// TODO : manage signal abort request

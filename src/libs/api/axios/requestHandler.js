@@ -192,3 +192,5 @@ const requestErrorHandler = (error) => {
 };
 
 export { requestSuccessHandler, requestErrorHandler };
+
+// TODO: tambahin add user-agent header
